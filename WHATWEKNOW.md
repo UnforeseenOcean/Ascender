@@ -33,6 +33,12 @@ Uses engine used in Toy Soldiers (and similar future PC releases from Signal Stu
 
 ## .\*b format
 `.oggb` and such files have weird file structure.
+`.tgab` files have static 70(16) bytes of data and seems to be regular Targa image files.
+`.nutb` files have F0(16) bytes of junk data.
+`.xmlb` files have this header: `(4 byte header)!SigB!(02 00)(4 byte header)(80 bytes of null)`
+
+### .BNK and .WEM files
+Using Wwise Audio Bank Extractor will extract some sort of audio data with `.wav` extension, but it's not playable yet. Seems to be either headless file or is using some sort of external compression.
 
 ## QuickBMS script for unpacking data file (use command-line mode, not GUI mode)
 ```

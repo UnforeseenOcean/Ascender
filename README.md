@@ -7,3 +7,5 @@ This is currently a information sharing page/repository for the game Ascend: Han
 Our (my?) goal is to create a local server for the game, since the official server has closed in 2016.
 
 Think of Mooege or Vindictus Offline (I think?).
+
+I apologize if this repo made you run to the toilet with sheer volume of uneducated guessworks!

@@ -1,7 +1,7 @@
 # What We Know
 
 ## Server addresses
-`prod.api.ascendgame.com`
+`prod.api.ascendgame.com` (confirmed)
 
 `gds4.steampowered.com`
 
@@ -43,7 +43,7 @@ Uses engine used in Toy Soldiers (and similar future PC releases from Signal Stu
 ### .BNK and .WEM files
 Using Wwise Audio Bank Extractor will extract some sort of audio data with `.wav` extension, but it's not playable yet. 
 
-Seems to be either headless file or is using some sort of external compression.
+Seems to be either headless file or is using some sort of external compression. (Probably Deflate)
 
 ## QuickBMS script for unpacking data file (use command-line mode, not GUI mode)
 ```
@@ -73,3 +73,137 @@ endif
 next i
 ```
 Command: `quickbms.exe (script file name) res.sacb (destination folder)`
+
+## Game data found on memory
+This game stores its filetable and other scripts on its memory.
+
+Here is the filetable from `res.sacb`, at offset `114ED0`~`25744F`:
+
+```
+gameplay\spells\firespray\fire_spray.nutb
+gui\textures\inventory\plate_01_helmet_var_02_g.pngb
+art\characters\beast\highlands_wolverine\textures\highlands_wolverine_n.tgab
+art\dungeons\random\sets\set_dark\pf_12_set_dark_breakdoor.0.geob
+gui\textures\signboard\signboard_backshadow_g.pngb
+art\characters\caos\hair\hair_09\caos_hair09.mshb
+anims\environments\structures\stair_reveal\stair_reveal.anib
+art\dungeons\custom\highlands\assets\dungeon_temple_drapery02_none.sigbgui\textures\messaging\how_to_combat_g.pngb
+effects\metawar\totems\blessing_use_light.sigbart\characters\caos\armor\alignment\leather_03\leather_03_helm_light.0.geob
+gameplay\player\player_ghost_ai.nutb
+effects\objects\ability_altar\ability_altar_player_foot_dark.fxb
+art\regions\highlands\shared\natural\water\textures\water_surface_02_void_d.tgab
+effects\weapons\reaper.fxb
+[...]
+```
+
+And this script from memory dump:
+```
+!SigB!
+!SigB!
+!SigB!
+!SigB!
+/////////////////////////////////////////////
+//// ------ CommonGoal_AnimateUp - 0 ------
+/////////////////////////////////////////////
+class CommonGoal_AnimateUp extends AI.SigAIGoal
+{
+	params = 0 //user data
+	params_ = 0 //construction data
+	constructor( paramsIn )
+	{
+		params = paramsIn
+		params_ = paramsIn
+		AI.SigAIGoal.constructor( params )
+		Setup( 0, "CommonGoal_AnimateUp", this )
+	}
+	function OnInsertion( goalDriven )
+	{
+		AI.SigAIGoal.OnInsertion( goalDriven )
+		{
+			if( ChildPriority( ) <= 0 )
+			{
+				PushGoal( /* AnimateUp */
+					_6d545f8_3( params ) )
+			}
+		}
+	}
+	function DebugTypeName( )
+		return "CommonGoal_AnimateUp - 0" 
+}
+/////////////////////////////////////////////
+//// ------ CommonGoal_AnimateDown - 0 ------
+/////////////////////////////////////////////
+class CommonGoal_AnimateDown extends AI.SigAIGoal
+{
+	params = 0 //user data
+	params_ = 0 //construction data
+	constructor( paramsIn )
+	{
+		params = paramsIn
+		params_ = paramsIn
+		AI.SigAIGoal.constructor( params )
+		Setup( 0, "CommonGoal_AnimateDown", this )
+	}
+	function OnInsertion( goalDriven )
+	{
+		AI.SigAIGoal.OnInsertion( goalDriven )
+		{
+			if( ChildPriority( ) <= 0 )
+			{
+				PushGoal( /* AnimateDown */
+					_6d545f8_2( params ) )
+			}
+		}
+	}
+	function DebugTypeName( )
+		return "CommonGoal_AnimateDown - 0" 
+}
+/////////////////////////////////////////////
+//// ------ AnimateDown - 0 ------
+/////////////////////////////////////////////
+class _6d545f8_2 extends AI.SigAIGoal
+{
+	params = 0 //user data
+	params_ = 0 //construction data
+	constructor( paramsIn )
+	{
+		params = paramsIn
+		params_ = paramsIn
+		AI.SigAIGoal.constructor( params )
+		Setup( 0, "_6d545f8_2", this )
+	}
+	function OnInsertion( goalDriven )
+	{
+		AI.SigAIGoal.OnInsertion( goalDriven )
+		SetMotionState( "AnimateDown", params, false )
+	}
+	function DebugTypeName( )
+		return "AnimateDown - 0" 
+}
+/////////////////////////////////////////////
+//// ------ AnimateUp - 0 ------
+/////////////////////////////////////////////
+class _6d545f8_3 extends AI.SigAIGoal
+{
+	params = 0 //user data
+	params_ = 0 //construction data
+	constructor( paramsIn )
+	{
+		params = paramsIn
+		params_ = paramsIn
+		AI.SigAIGoal.constructor( params )
+		Setup( 0, "_6d545f8_3", this )
+	}
+	function OnInsertion( goalDriven )
+	{
+		AI.SigAIGoal.OnInsertion( goalDriven )
+		SetMotionState( "AnimateUp", params, false )
+	}
+	function DebugTypeName( )
+		return "AnimateUp - 0" 
+}
+```
+
+The complete filetable is included in this repo as `"res.sacb.idx"`.
+
+Memory dump will be cleaned up and included here.

@@ -15,6 +15,12 @@ I apologize if this repo made you run to the toilet with sheer volume of uneduca
 2. Register or log into your account.
 3. Follow this link: steam://install/233630/
 4. You're done! This requires at least 2GB of hard disk space.
+
+### Want only the executable?
+Go to https://drive.google.com/file/d/1f7nQuWxw2IqRRlWysPzU0b-OOW8SLb6N/view?usp=sharing
+
+This file will be deleted immediately upon request.
+
 ## Files
 `LICENSE`: License info. This repo is licenced under LGPL-3.0.
 

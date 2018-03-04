@@ -21,7 +21,10 @@ I apologize if this repo made you run to the toilet with sheer volume of uneduca
 
 `WHATWEKNOW.md`: Document detailing what I have found over the time using various methods, such as debuggers, memory dumps, static analysis (surface level, unfortunately...)
 
-`res.sacb.idx`: A file index found inside the data blob. Use the BMS Script included inside `WHATWEKNOW.md` to unpack the `res.sacb` file.
+`res.sacb.idx`: A file index found inside the data blob. Use the QuickBMS Script included inside `WHATWEKNOW.md` to unpack the `res.sacb` file.
 
 ## Credits
 - LiveOverflow - Awesome guy, I used some of his tactics to pull some info out of the "post-mortem flight-recorder data mess".
+- Luigi Auriemma - Maker of QuickBMS.
+- XeNTaX - I reused the unpacking code for Toy Soldiers (which had same data blob structure) to unpack data file. Original script can be found [on this link.](http://forum.xentax.com/viewtopic.php?f=10&t=8860)
+- swuforce - Creator of aforementioned QuickBMS script. I borrowed their script from their forum post.

@@ -209,3 +209,9 @@ The complete filetable is included in this repo as `"res.sacb.idx"`.
 Memory dump will be cleaned up and included here.
 
 Update: Memory string dump uploaded: Check `MEMDUMP_TRUNCATED.TXT`.
+
+## The good news
+The files are all on the local side! Server seems to be only used for auth and multiplayer components.
+
+### The bad news
+...But I don't know how to get past the error screen yet. :sob:

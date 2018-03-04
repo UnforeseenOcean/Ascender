@@ -207,3 +207,5 @@ class _6d545f8_3 extends AI.SigAIGoal
 The complete filetable is included in this repo as `"res.sacb.idx"`.
 
 Memory dump will be cleaned up and included here.
+
+Update: Memory string dump uploaded: Check `MEMDUMP_TRUNCATED.TXT`.

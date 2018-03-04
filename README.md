@@ -10,6 +10,11 @@ Think of Mooege or Vindictus Offline (I think it was called like that? Correct m
 
 I apologize if this repo made you run to the toilet with sheer volume of uneducated guessworks!
 
+## How to download the game
+1. Install Steam.
+2. Register or log into your account.
+3. Follow this link: steam://install/233630/
+4. You're done! This requires at least 2GB of hard disk space.
 ## Files
 `LICENSE`: License info. This repo is licenced under LGPL-3.0.
 

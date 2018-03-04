@@ -33,3 +33,6 @@ I apologize if this repo made you run to the toilet with sheer volume of uneduca
 - Luigi Auriemma - Maker of QuickBMS.
 - XeNTaX - I reused the unpacking code for Toy Soldiers (which had same data blob structure) to unpack data file. Original script can be found [on this link.](http://forum.xentax.com/viewtopic.php?f=10&t=8860)
 - swuforce - Creator of aforementioned QuickBMS script. I borrowed their script from their forum post.
+
+## DISCLAIMER
+The files from the game are only provided for reference use only. To protect the intellectual property of original developers and companies, only the main executable will be provided, and provided executable will be removed upon request from the developers. I highly recommend downloading the entire game through official sources (Steam).

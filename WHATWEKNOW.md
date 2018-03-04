@@ -40,6 +40,8 @@ Uses engine used in Toy Soldiers (and similar future PC releases from Signal Stu
 
 `.xmlb` files have this header: `(4 byte header)!SigB!(02 00)(4 byte header)(80 bytes of null)`
 
+Some files just have their custom header stuck in front of the file.
+
 ### .BNK and .WEM files
 Using Wwise Audio Bank Extractor will extract some sort of audio data with `.wav` extension, but it's not playable yet. 
 

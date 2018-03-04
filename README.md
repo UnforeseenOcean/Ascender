@@ -22,3 +22,6 @@ I apologize if this repo made you run to the toilet with sheer volume of uneduca
 `WHATWEKNOW.md`: Document detailing what I have found over the time using various methods, such as debuggers, memory dumps, static analysis (surface level, unfortunately...)
 
 `res.sacb.idx`: A file index found inside the data blob. Use the BMS Script included inside `WHATWEKNOW.md` to unpack the `res.sacb` file.
+
+## Credits
+- LiveOverflow - Awesome guy, I used some of his tactics to pull some info out of the "post-mortem flight-recorder data mess".

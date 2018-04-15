@@ -3,7 +3,11 @@
 ## Server addresses
 `prod.api.ascendgame.com` (confirmed)
 
+`https://prod.api.ascendgame.com/users/me/id`
+
 `gds4.steampowered.com`
+
+`https://profile.xboxlive.com`
 
 `1.214.68.2` (Unconfirmed)
 
@@ -216,4 +220,11 @@ Update: Memory string dump uploaded: Check `MEMDUMP_TRUNCATED.TXT`.
 The files are all on the local side! Server seems to be only used for auth and multiplayer components.
 
 ### The bad news
-...But I don't know how to get past the error screen yet. :sob:
+~~...But I don't know how to get past the error screen yet. :sob:~~
+
+Unconfirmed fix: ` 0x0134BF36 - Patch to mov eax,1 RETN // IsSignInPending 0x0134BE21 - NOP // IsSignedInOnline 0x0134BE26 - NOP // IsSignedInOnline2 0x00E5BE26 - NOP // (Crash Fix)`
+
+Find these addresses and apply these instructions.
+
+
+Server test PHP code is at https://pastebin.com/UfM5VK7b

@@ -34,6 +34,8 @@ This file will be deleted immediately upon request.
 
 `res.sacb.idx`: A file index found inside the data blob. Use the QuickBMS Script included inside `WHATWEKNOW.md` to unpack the `res.sacb` file.
 
+`ServerComm.md`: A work-in-process writeup of this game's inner workings, specifically the server communication portion. Thank you Permanull!
+
 ## Credits
 - LiveOverflow - Awesome guy, I used some of his tactics to pull some info out of the "post-mortem flight-recorder data mess".
 - Luigi Auriemma - Maker of QuickBMS.

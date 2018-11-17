@@ -12,6 +12,8 @@ Think of Mooege or Vindictus Offline (I think it was called like that? Correct m
 
 I apologize if this repo made you run to the toilet with sheer volume of uneducated guessworks!
 
+p.s. Dear developers at Signal Studios, if you are reading this and loved this game and want to bring it back, please consider helping us. Thank you.
+
 ## How to download the game
 1. Install Steam.
 2. Register or log into your account.

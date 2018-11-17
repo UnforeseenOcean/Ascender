@@ -4,7 +4,9 @@ Server emulator for Ascend: Hand of Kul
 ## Introduction
 This is currently a information sharing page/repository for the game Ascend: Hand of Kul.
 
-Our (my?) goal is to create a local server for the game, since the official server has closed down in 2016.
+~~Our~~ The goal is to create a local server for the game, since the official server has closed down in 2016.
+
+(Mad props to Permanull, they definitely know what they are doing unlike me :pensive:)
 
 Think of Mooege or Vindictus Offline (I think it was called like that? Correct me if I'm wrong).
 

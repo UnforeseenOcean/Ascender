@@ -25,5 +25,8 @@ This one is a real head-scratcher. It does not fit into any type of compression 
 ## `.swfb` file
 This is here because of Iggy, a Flash-based UI solution. I was unable to make this work either; It has some weird header I don't know of.
 
+## Quirks
+The game also seems to be looking for the content files in `AppData\Local\Ascend\contents`. Currently I found out it's looking for these files:
+![Screenshot 3](https://github.com/UnforeseenOcean/Ascender/raw/master/img/Image_867.png ":thinking:")
 
 (I can only imagine Permanull's face when I put my guessworks on GitHub...)

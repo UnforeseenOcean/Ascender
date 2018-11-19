@@ -1,6 +1,10 @@
 # Ascender
 Server emulator for Ascend: Hand of Kul
 
+Check our Discord server for updates, info and discussion (and also help us there)
+
+https://discord.gg/PpgHEB8
+
 ## Introduction
 This is currently a information sharing page/repository for the game Ascend: Hand of Kul.
 

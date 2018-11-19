@@ -2,7 +2,7 @@
 This document describes what I currently know about this game's files.
 
 ## `.*b` format
-Name suggests `bzip` compression, however it's most likely `zlib` compression.
+Name suggests `bzip` compression, however it's most likely `zlib` compression. (Source: Binwalk, but take this with a spoonful of salt)
 
 ## `.nutb` file
 This is very likely Squirrel, a game-focused programming language. http://squirrel-lang.org/

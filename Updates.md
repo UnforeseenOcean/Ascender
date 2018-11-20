@@ -11,7 +11,7 @@ https://discord.gg/PpgHEB8
 Problems were collected:
 - Chests do not spawn loot
 - Ascending rewards are not selectable
-- Autosave is broken and its icon is always on the screen
+- Autosave is broken and its icon gets stuck on the screen when ascending
 
 Gameplay is possible, but your progress is not saved. (yet)
 

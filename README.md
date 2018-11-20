@@ -32,6 +32,8 @@ This file will be deleted immediately upon request.
 ## Files
 `LICENSE`: License info. This repo is licenced under LGPL-3.0.
 
+`Updates.md`: This is the update log. I'll try my best to keep track of the updates, but Permanull is really talented and the progress is very fast, so it might be outdated or less-than-ideal.
+
 `MEMDUMP_TRUNCATED.TXT`: A memory string dump of the game. This reveals some slightly mangled scripts used by the game, totally unencrypted/decompressed. I haven't been able to locate the magic word for each file, so direct decomp/decrypt is not possible yet for me.
 
 `PROTOCOL.md`: Documentation on the protocols used by this game. Sadly, I need to figure out how to make the game go past the error screen in order to update this documentation.

@@ -10,7 +10,7 @@ https://discord.gg/PpgHEB8
 ## November 25, 2018
 We had a lot of crashes related to shop items and a bug with spell purchase (it defaults to Fireball), but we did it; Multiplayer is possible and saving character (with no property yet) is possible.
 
-https://github.com/UnforeseenOcean/Ascender/raw/master/img/233630_20181121202132_1.png
+![Screenshot 3](https://github.com/UnforeseenOcean/Ascender/raw/master/img/233630_20181121202132_1.png "OH YES")
 
 Permanull is working on implementing the rest of the API; Stay tuned!
 

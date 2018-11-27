@@ -10,6 +10,8 @@ https://discord.gg/PpgHEB8
 ## November 26, 2018
 The save function is being fixed (item properties included this time) and store should work fine now.
 
+Note that ascending still doesn't work, due to the backend not being implemented correctly.
+
 ## November 25, 2018
 We had a lot of crashes related to shop items and a bug with spell purchase (it defaults to Fireball), but we did it; Multiplayer is possible and saving character (with no property yet) is possible.
 

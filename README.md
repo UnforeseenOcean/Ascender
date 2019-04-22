@@ -3,18 +3,17 @@ Server emulator for Ascend: Hand of Kul
 
 Check our Discord server for updates, info and discussion (and also help us there)
 
+Also thank Permanull while you are at it, he really deserves it.
+
 https://discord.gg/PpgHEB8
+
 
 ## Introduction
 This is currently a information sharing page/repository for the game Ascend: Hand of Kul.
 
-~~Our~~ The goal is to create a local server for the game, since the official server has closed down in 2016.
+The goal is to create a local server for the game, since the official server has closed down in 2016.
 
-(Mad props to Permanull, they definitely know what they are doing unlike me :pensive:)
-
-Think of Mooege or Vindictus Offline (I think it was called like that? Correct me if I'm wrong).
-
-I apologize if this repo made you run to the toilet with sheer volume of uneducated guessworks!
+(Mad props to Permanull, he definitely knows what he is doing unlike me :pensive:)
 
 p.s. Dear developers at Signal Studios, if you are reading this and loved this game and want to bring it back, please consider helping us. Thank you.
 
@@ -23,11 +22,6 @@ p.s. Dear developers at Signal Studios, if you are reading this and loved this g
 2. Register or log into your account.
 3. Follow this link: steam://install/233630/
 4. You're done! This requires at least 2GB of hard disk space.
-
-### Want only the executable?
-Go to https://drive.google.com/file/d/1f7nQuWxw2IqRRlWysPzU0b-OOW8SLb6N/view?usp=sharing
-
-This file will be deleted immediately upon request.
 
 ## Files
 `LICENSE`: License info. This repo is licenced under LGPL-3.0.
@@ -49,11 +43,15 @@ This file will be deleted immediately upon request.
 `ServerComm.md`: A work-in-process writeup of this game's inner workings, specifically the server communication portion. Thank you Permanull!
 
 ## Credits
+- **permanull - The Boss (he's programming everything and I can't thank him enough)** :heart: :heart: :heart:
 - LiveOverflow - Awesome guy, I used some of his tactics to pull some info out of the "post-mortem flight-recorder data mess".
 - Luigi Auriemma - Maker of QuickBMS.
 - XeNTaX - I reused the unpacking code for Toy Soldiers (which had same data blob structure) to unpack data file. Original script can be found [on this link.](http://forum.xentax.com/viewtopic.php?f=10&t=8860)
 - swuforce - Creator of aforementioned QuickBMS script. I borrowed their script from their forum post.
-- **permanull - Tremendous helper from Reddit! Thanks a lot for solving login error!** :heart: :heart: :heart:
+
+## Manifesto
+> Despite my lack of skills I wanted to show people that this game is really something, that the game deserves a second chance, that this game could serve as a reminder for its innovation and as a motivation for future developers. Maybe one day someone comes across this game on the archives far into the future, maybe after Steam closes down and none of people who have worked on this game and this project remains, plays it, gets inspired and starts making games to instill creativity and imagination to the future generations to come. That is my hope and the reason I started this project.
+- UnforeseenOcean
 
 ## DISCLAIMER
-The files from the game are only provided for reference use only. To protect the intellectual property of original developers and companies, only the main executable will be provided, and provided executable will be removed upon request from the developers. I highly recommend downloading the entire game through official sources (Steam).
+This repository and all of its contents are provided "as-is" without any warranty. By downloading or using any part of this repository you accept any and all risk and responsibility associated with the use of binary file and/or code snippets.
